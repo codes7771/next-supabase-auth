@@ -39,7 +39,7 @@ export function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-slate-300 hover:text-white"
+                  className="text-sm font-semibold text-black hover:text-black"
                 >
                   {item.name}
                 </a>
